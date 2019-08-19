@@ -24,7 +24,7 @@ router.all('/', function (req, res) {
         else
             RESPOND.Response(err, {
                 success: "0",
-                message: CONSTANT.ErrorStuff.Not_Load_Any_Category
+                message: CONSTANT.ErrorStuff.Not_Load_Any_Notify
             }, res);
     })
 });
